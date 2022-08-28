@@ -12,6 +12,9 @@ I listed the skills in descending order from my experience with them.
 
 ##### The Rust Programming Language
 
+##### Advanced knowledge of Linux (Primary Arch and Arch-based Distributions) and The ecosystem of FLOSS Software
+Worked The Last 3 Jears with Linux as Main OS. Linux Gaming enthusiast.
+
 ##### Web Technologies (Bootstrap, HTML, CSS, SASS, JS, MYSQL, MariaDB, PostgreSQL & Vite)
 
 ##### C++ & C
