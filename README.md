@@ -38,3 +38,7 @@ Professional developers to work with
 here on github :)
 
 or email me [frequency403@gmail.com](mailto:frequency403@gmail.com)
+
+## Certificates
+
+<img src="https://udemy-certificate.s3.amazonaws.com/image/UC-efe058a5-80a0-4529-a489-a7ae5e4c1d45.jpg" alt="Rust Certificate">
