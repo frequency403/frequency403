@@ -17,7 +17,7 @@ Worked The Last 3 Jears with Linux as Main OS. Now staying in Windows.
 
 ##### Web Technologies (Bootstrap, HTML, CSS, SASS, JS, MYSQL, MariaDB, PostgreSQL & Vite)
 
-##### C++ & C
+##### C++, C# & C
 
 ##### Python
 
