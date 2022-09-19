@@ -42,4 +42,5 @@ or email me [frequency403@gmail.com](mailto:frequency403@gmail.com)
 ## Certificates
 
 [Rust Language (Dmitri Nesteruk)](https://ude.my/UC-efe058a5-80a0-4529-a489-a7ae5e4c1d45)
+
 [Rust Language Intermediate Concepts (Nathan Stocks)](https://ude.my/UC-a5688e75-5c2d-4127-b24c-054b30073fb2)
