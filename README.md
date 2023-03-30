@@ -1,5 +1,5 @@
-## Hello there! I am Oliver!  
-Software Engineer for System & Desktop Software and ASP.NET WebApplications ✌️
+## Hello there! I am Oliver!✌️  
+I'm a Software Engineer for System & Desktop Software and ASP.NET WebApplications 
 
 I took my first steps in programming at age 13 and my
 enthusiasm never stopped!
