@@ -1,8 +1,7 @@
-## Hello there! I am Oliver! ✌️
+## Hello there! I am Oliver! Software Engineer for System & Desktop Software and ASP.NET WebApplications ✌️
 
-I took my first steps in programming at age 13. My journey took many setbacks till my life changed completely.
-
-Now i am ready to start again, professionally and with all my enthusiasm!
+I took my first steps in programming at age 13 and my
+enthusiasm never stopped!
 
 ---
 
