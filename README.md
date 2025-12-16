@@ -10,6 +10,7 @@ I’m a systems programmer and desktop app developer with a strong focus on secu
 
 ## 🔭 Projects I’m working on
 - **[OpenSSH-GUI](https://github.com/frequency403/OpenSSH-GUI)** – A native .NET GUI frontend for managing SSH keys and connections
+- **[OpenSourceInitiative.LicenseApi](https://github.com/frequency403/OpenSourceInitiative.LicenseApi)** - A NuGet Package providing a wrapper for the API of the OpenSourceInitiative, providing license information
 - **LicenseMe (Avalonia)** *(TBA)* – Lightweight software licensing cross-platform GUI .NET app
 - Smartcard tools & PACE implementations for secure authentication (e.g. eGK, eID)
 - Always happy to collaborate or give feedback!
