@@ -1,72 +1,62 @@
-# 👋 Hi, I'm Oliver
+# Hi, I'm Oliver 👋
 
-I’m a systems programmer and desktop app developer with a strong focus on security, identity, and high-performance native software. Currently working mainly with **C#**, **Rust**, **C/C++**, and exploring modern GUI frameworks like **Avalonia**.
+Software engineer from Germany working in **C#/.NET** and **Rust**. I build CI/CD pipelines and release automation, desktop applications, and software that talks to hardware.
 
-🔐 I have a strong interest in cybersecurity, smartcard protocols (e.g. PACE, Secure Messaging), and building robust applications for sensitive environments.  
-🎓 Certified IT Specialist with a background in multiple professional fields and currently pursuing more cybersecurity-focused certifications.  
-🛠️ Passionate about building tools that are practical, reliable, and open source.
+My day job is software for the digitalization of emergency medical services: build and release pipelines, Windows desktop clients, smart card readers and mobile broadband connectivity. In my own time I work on open-source tools around SSH, smart cards and software licensing.
 
----
+## What I work on
 
-## 🔭 Projects I’m working on
-- **[OpenSSH-GUI](https://github.com/frequency403/OpenSSH-GUI)** – A native .NET GUI frontend for managing SSH keys and connections
-- **[OpenSourceInitiative.LicenseApi](https://github.com/frequency403/OpenSourceInitiative.LicenseApi)** - A NuGet Package providing a wrapper for the API of the OpenSourceInitiative, providing license information
-- **LicenseMe (Avalonia)** *(TBA)* – Lightweight software licensing cross-platform GUI .NET app
-- Smartcard tools & PACE implementations for secure authentication (e.g. eGK, eID)
-- Always happy to collaborate or give feedback!
+- **CI/CD:** GitLab CI on Windows runners with the PowerShell executor, Jenkins, GitHub Actions with composite actions and reusable workflows
+- **Release automation and packaging:** NuGet with pre-release versioning and Central Package Management; tag-driven GitHub releases built from the binaries of the CI run that passed; winget, AUR and NSIS installers
+- **Desktop applications:** Avalonia, WPF and WinForms; reactive MVVM with ReactiveUI and DynamicData; moving legacy applications onto the .NET Generic Host
+- **Smart cards and secure channels:** PC/SC, ISO 7816-4 APDUs and ATR parsing, PACE and Secure Messaging, German eGK
+- **Native interop:** COM interop, Windows Mobile Broadband API (MBN), proprietary serial protocols with binary framing
 
----
+## Featured projects
 
-## 📜 Certifications
-- 🧑‍🏫 **AdA-Schein** *(Instructor Aptitude Certification – 2025 in progress)*  
-- 📚 **Planned**: CompTIA Security+, OSCP, CEH or similar high-value security certs
+### [OpenSSH-GUI](https://github.com/frequency403/OpenSSH-GUI) · C# · Avalonia
 
----
+Cross-platform desktop app for managing SSH keys, `known_hosts` and `authorized_keys` on Windows, Linux and macOS. Key generation, OpenSSH ⇄ PuTTY conversion, fingerprints without decrypting the private key, remote editing over SSH, and a recursive-descent `ssh_config(5)` parser exposed as an `IConfiguration` source. Released through GitHub Actions to GitHub, winget and the AUR.
 
-## 💬 Talk to me about
-- Low-level .NET internals or interop with native libraries  
-- Building resilient authentication workflows with smartcards & RFID  
-- Desktop GUI/UX in WPF & Avalonia  
-- Career paths for tech-minded generalists and specialists
+### [KnowYourEgk](https://github.com/frequency403/KnowYourEgk) · Rust · egui
 
----
+Reads the insurance master data (VSD) from a German health insurance card (eGK G2.1), contact or contactless over NFC. Implements PACE (ECDH Generic Mapping, brainpoolP256r1) and AES Secure Messaging following the gematik specifications and ICAO Doc 9303-11, structured as a Rust workspace with a transport abstraction over PC/SC. No network code; the CAN and all session keys are zeroized after use. Releases are cut automatically from the version in `Cargo.toml` once CI on `main` is green.
 
-## 🤝 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/oliver-schantz-a68356298)
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/frequency403)  
-Proud member of the  
-<a href="https://dotnetfoundation.org"><img src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.svg" height="50"/></a>
+<a href="https://github.com/frequency403/KnowYourEgk">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/frequency403/KnowYourEgk/main/docs/screenshots/result-dark.png">
+    <img alt="KnowYourEgk showing the insurance data of a health card after a contactless read (example data)" src="https://raw.githubusercontent.com/frequency403/KnowYourEgk/main/docs/screenshots/result-light.png" width="720">
+  </picture>
+</a>
 
----
+### [OpenSourceInitiative.LicenseApi](https://github.com/frequency403/OpenSourceInitiative.LicenseApi) · C# · NuGet
 
-## 🧰 Tech Stack
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat&logo=csharp&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=flat&logo=dotnet&logoColor=white)
-![WPF](https://img.shields.io/badge/WPF-%23239120.svg?style=flat&logo=windows&logoColor=white)
-![Avalonia](https://img.shields.io/badge/Avalonia-%23A1A1A1.svg?style=flat&logo=avalonia&logoColor=white)
-![BouncyCastle](https://img.shields.io/badge/BouncyCastle-%234B0082.svg?style=flat)
-![PCSC](https://img.shields.io/badge/PCSC-Reader-blue?style=flat)
+.NET client for the Open Source Initiative License API: list, search and filter OSI Approved Licenses® by SPDX ID, name, keyword or steward, including the license text. Multi-targeted and published on [NuGet](https://www.nuget.org/packages/OpenSourceInitiative.LicenseApi).
 
----
+### Also built
 
-## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=frequency403&theme=tokyonight&hide_border=false&count_private=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=frequency403&theme=tokyonight&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=frequency403&theme=tokyonight&layout=compact&hide_border=false)
+- **[AnyBookStore](https://github.com/frequency403/AnyBookStore)** · C# · ASP.NET Core + Angular: self-hosted personal book library; scan or enter an ISBN, rate it, mark it read, backed by the Open Library catalog
+- **[license-me](https://github.com/frequency403/license-me)** · Rust · CLI (archived): creates licenses for unlicensed projects on your machine; predecessor of **[LicenseMe](https://github.com/frequency403/LicenseMe)** (Avalonia)
 
----
+## Tech stack
 
-## 🏆 Trophies
-![](https://github-profile-trophy.vercel.app/?username=frequency403&theme=tokyonight&no-frame=false&margin-w=4)
+| | |
+|---|---|
+| **Languages** | C#, Rust, PowerShell, Bash, SQL |
+| **CI/CD** | GitLab CI, Jenkins, GitHub Actions |
+| **Packaging** | NuGet, winget, AUR, NSIS |
+| **.NET** | Avalonia, WPF, WinForms, ASP.NET Core, ReactiveUI, DynamicData, Microsoft.Extensions.\* (Hosting, DI, Options), DryIoc, Dapper, EF Core, xUnit |
+| **Rust** | egui / eframe, Cargo workspaces |
+| **Smart cards and security** | PC/SC, ISO 7816-4, PACE, Secure Messaging, BouncyCastle, MIFARE Classic |
+| **Data and APIs** | SQLite, REST, SOAP |
+| **Tools** | JetBrains Rider, Jira, Confluence |
 
----
+## Background
 
-## ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+- Certified IT specialist for application development (*Fachinformatiker für Anwendungsentwicklung*)
+- Trainer aptitude certificate (*AdA-Schein*, AEVO), 2026
+- Languages: German (native), English (fluent)
 
----
+## Contact
 
-[![](https://visitcount.itsvg.in/api?id=frequency403&icon=1&color=0)](https://visitcount.itsvg.in)
+[LinkedIn](https://linkedin.com/in/oliver-schantz-a68356298) · [Reddit](https://reddit.com/user/frequency403)
